@@ -396,10 +396,10 @@ clause - clause generated
 },
 {
   "id" : "48",
-  "part" : "0",
+  "part" : "1",
   "parent" : "Melanie had 19 dimes in her bank. Her dad gave her 39 dimes and her mother gave her 25 dimes. How many dimes does Melanie have now ?",
   "parent_resolved" : "E1 had 19 dimes in E2. E3 gave her 39 dimes and E4 gave her 25 dimes. How many dimes does E1 have now ?",
-  "sentence_resolved" : "How many dimes does E1 have now",
+  "sentence_resolved" : "How many dimes does E1 have now ?",
   "clause": "have(E1, X)."
 },
 {
@@ -409,7 +409,7 @@ clause - clause generated
   "parent" : "There are 43 pencils in the drawer and 19 pencils on the desk. Dan placed  16 more pencils on the desk. How many pencils are now there in total ?",
   "parent_resolved" : "There are 43 pencils in E1 and 19 pencils on E2. E3 placed 16 more pencils on E2. How many pencils are now there in total ?",
   "sentence_resolved" : "There are 43 pencils in E1 and 19 pencils on E2",
-  "clause" : "have(E1, 43). have(19, E2)."
+  "clause" : "have(E1, 43). have(E2, 19)."
 },
 {
   "id" : "50",
@@ -1108,8 +1108,50 @@ clause - clause generated
   "sentence_resolved" : "E1 now has 4 Pokemon cards left",
   "clause" : "have(E1, 4)."
 },
-Jason had Pokemon cards. He gave 9 Pokemon cards to his friends. He now has 4 Pokemon cards left. How many Pokemon cards did he have to start with ?
-Mary had 7 nickels in her bank. Her dad gave her 5 more nickels. How many nickels does Mary have now ?
+{
+  "id" : "135",
+  "part" : "1",
+  "parent" : "Jason had Pokemon cards. He gave 9 Pokemon cards to his friends. He now has 4 Pokemon cards left. How many Pokemon cards did he have to start with ?"
+  "parent_resolved" : "E1 had Pokemon cards. E1 gave 9 Pokemon cards to E2. E1 now has 4 Pokemon cards left. How many Pokemon cards did E1 have to start with ?"
+  "sentence_resolved" : "How many Pokemon cards did E1 have to start with ?",
+  "clause" : "have(E1, X)."
+},
+{
+  "id" : "136",
+  "part" : "0",
+  "parent" : "Mary had 7 nickels in her bank. Her dad gave her 5 more nickels. How many nickels does Mary have now ?"
+  "parent_resolved" : "E1 had 7 nickels in her bank. E2 gave E1 5 more nickels. How many nickels does E1 have now ?"
+  "sentence_resolved" : "E1 had 7 nickels in her bank.",
+  "clause" : "have(E1, 7)."
+},
+{
+  "id" : "137",
+  "part" : "0",
+  "parent" : "Mary had 7 nickels in her bank. Her dad gave her 5 more nickels. How many nickels does Mary have now ?"
+  "parent_resolved" : "E1 had 7 nickels in her bank. E2 gave E1 5 more nickels. How many nickels does E1 have now ?"
+  "sentence_resolved" : "E2 gave E1 5 more nickels.",
+  "clause" : "transfer(E1, E2, 5)."
+},
+{
+  "id" : "138",
+  "part" : "1",
+  "parent" : "Mary had 7 nickels in her bank. Her dad gave her 5 more nickels. How many nickels does Mary have now ?"
+  "parent_resolved" : "E1 had 7 nickels in her bank. E2 gave E1 5 more nickels. How many nickels does E1 have now ?"
+  "sentence_resolved" : "How many nickels does E1 have now ?",
+  "clause" : "have(E1, X)."
+},
+{
+  "id" : "139",
+  "part" : "0",
+  "parent" : "Melanie, Benny, Sally, and Jessica each have 3 baseball cards.  How many baseball cards do they have in all ?"
+  "parent_resolved" : "E1, E2, E3, and E4 each have 3 baseball cards.  How many baseball cards do they have in all ?"
+  "sentence_resolved" : "E1, E2, E3, and E4 each have 3 baseball cards.",
+  "clause" : "have(E1, 3). have(E2, 3). have(E3, 3). have(E4, 3)."
+},
+
+
+
+
 Melanie, Benny, Sally, and Jessica each have 3 baseball cards.  How many baseball cards do they have in all ?
 There are 4 children in the classroom, each student will get 2 pencils. How many pencils will the teacher have to give out ?
 Mary has 9 yellow marbles Joan has 3 yellow marbles. How many yellow marbles do they have in all ?
