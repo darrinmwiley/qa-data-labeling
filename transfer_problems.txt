@@ -1143,61 +1143,184 @@ clause - clause generated
 {
   "id" : "139",
   "part" : "0",
-  "parent" : "Melanie, Benny, Sally, and Jessica each have 3 baseball cards.  How many baseball cards do they have in all ?"
-  "parent_resolved" : "E1, E2, E3, and E4 each have 3 baseball cards.  How many baseball cards do they have in all ?"
-  "sentence_resolved" : "E1, E2, E3, and E4 each have 3 baseball cards.",
-  "clause" : "have(E1, 3). have(E2, 3). have(E3, 3). have(E4, 3)."
+  "parent" : "Tom found 5 seashells on the beach. he gave Jessica 2 of the seashells. How many seashells does he now have ?"
+  "parent_resolved" : "E1 found 5 seashells on the beach. E1 gave E2 2 of the seashells. How many seashells does E1 now have ?"
+  "sentence_resolved" : "E1 found 5 seashells on the beach. E1 gave E2 2 of the seashells.",
+  "clause" : "change(E1, 5). transfer(E1, E2, 2)."
+},
+{
+  "id" : "140",
+  "part" : "1",
+  "parent" : "Tom found 5 seashells on the beach. he gave Jessica 2 of the seashells. How many seashells does he now have ?"
+  "parent_resolved" : "E1 found 5 seashells on the beach. E1 gave E2 2 of the seashells. How many seashells does E1 now have ?"
+  "sentence_resolved" : "How many seashells does E1 now have ?",
+  "clause" : "have(E1, X)."
+},
+{
+  "id" : "141",
+  "part" : "0",
+  "parent" : "Fred has 5 baseball cards. Melanie bought 3 of Fred's  baseball cards. How many baseball cards does Fred have now ?"
+  "parent_resolved" : "E1 has 5 baseball cards. E2 bought 3 of E1's  baseball cards. How many baseball cards does E1 have now ?"
+  "sentence_resolved" : "E1 has 5 baseball cards.",
+  "clause" : "have(E1, 5)."
+},
+{
+  "id" : "142",
+  "part" : "0",
+  "parent" : "Fred has 5 baseball cards. Melanie bought 3 of Fred's  baseball cards. How many baseball cards does Fred have now ?"
+  "parent_resolved" : "E1 has 5 baseball cards. E2 bought 3 of E1's  baseball cards. How many baseball cards does E1 have now ?"
+  "sentence_resolved" : "E2 bought 3 of E1's  baseball cards.
+  "clause" : "transfer(E1, E2, 3)."
+},
+{
+  "id" : "143",
+  "part" : "1",
+  "parent" : "Fred has 5 baseball cards. Melanie bought 3 of Fred's  baseball cards. How many baseball cards does Fred have now ?"
+  "parent_resolved" : "E1 has 5 baseball cards. E2 bought 3 of E1's  baseball cards. How many baseball cards does E1 have now ?"
+  "sentence_resolved" : "How many baseball cards does E1 have now ",
+  "clause" : "have(E1, 5)."
+},
+{
+  "id" : "144",
+  "part" : "0",
+  "parent" : "Mary had 8 potatoes in the garden. The rabbits ate 3 of the potatoes. How many potatoes does Mary now have ?"
+  "parent_resolved" : "E1 had 8 potatoes in the garden. E2 ate 3 of the potatoes. How many potatoes does E1 now have ?"
+  "sentence_resolved" : "E1 had 8 potatoes in the garden.",
+  "clause" : "have(E1, 8)."
+},
+{
+  "id" : "145",
+  "part" : "0",
+  "parent" : "Mary had 8 potatoes in the garden. The rabbits ate 3 of the potatoes. How many potatoes does Mary now have ?"
+  "parent_resolved" : "E1 had 8 potatoes in the garden. E2 ate 3 of the potatoes. How many potatoes does E1 now have ?"
+  "sentence_resolved" : "E2 ate 3 of the potatoes.",
+  "clause" : "transfer(E1, E2, 3)."
+},
+{
+  "id" : "145",
+  "part" : "1",
+  "parent" : "Mary had 8 potatoes in the garden. The rabbits ate 3 of the potatoes. How many potatoes does Mary now have ?"
+  "parent_resolved" : "E1 had 8 potatoes in the garden. E2 ate 3 of the potatoes. How many potatoes does E1 now have ?"
+  "sentence_resolved" : "How many potatoes does E1 now have ?",
+  "clause" : "have(E1, X)."
+},
+{
+  "id" : "146",
+  "part" : "0",
+  "parent" : "There are 9 oak trees currently in the park. Park workers had to cut down 2  oak trees that were damaged. How many oak trees will the park have when the workers are finished ?"
+  "parent_resolved" : "There are 9 oak trees currently in E1. E2 had to cut down 2  oak trees that were damaged. How many oak trees will E1 have when E2 are finished ?"
+  "sentence_resolved" : "There are 9 oak trees currently in E1.",
+  "clause" : "have(E1, 9)."
+},
+{
+  "id" : "147",
+  "part" : "0",
+  "parent" : "There are 9 oak trees currently in the park. Park workers had to cut down 2  oak trees that were damaged. How many oak trees will the park have when the workers are finished ?"
+  "parent_resolved" : "There are 9 oak trees currently in E1. E2 had to cut down 2  oak trees that were damaged. How many oak trees will E1 have when E2 are finished ?"
+  "sentence_resolved" : "E2 had to cut down 2  oak trees that were damaged.",
+  "clause" : "transfer(E1, E2, X)."
+},
+{
+  "id" : "149",
+  "part" : "1",
+  "parent" : "There are 9 oak trees currently in the park. Park workers had to cut down 2  oak trees that were damaged. How many oak trees will the park have when the workers are finished ?"
+  "parent_resolved" : "There are 9 oak trees currently in E1. E2 had to cut down 2  oak trees that were damaged. How many oak trees will E1 have when E2 are finished ?"
+  "sentence_resolved" : "How many oak trees will E1 have when E2 are finished ?",
+  "clause" : "have(E1, X)."
+},
+{
+  "id" : "150",
+  "part" : "0",
+  "parent" : "Jessica had 8 quarters in her bank. Her sister borrowed 3 of her quarters. How many quarters does Jessica have now ?"
+  "parent_resolved" : "E1 had 8 quarters in her bank. E2 borrowed 3 of E1 quarters. How many quarters does E1 have now ?"
+  "sentence_resolved" : "E1 had 8 quarters in her bank.",
+  "clause" : "have(E1, 8)."
+},
+{
+  "id" : "151",
+  "part" : "0",
+  "parent" : "Jessica had 8 quarters in her bank. Her sister borrowed 3 of her quarters. How many quarters does Jessica have now ?"
+  "parent_resolved" : "E1 had 8 quarters in her bank. E2 borrowed 3 of E1 quarters. How many quarters does E1 have now ?"
+  "sentence_resolved" : "E2 borrowed 3 of E1 quarters.",
+  "clause" : "transfer(E1, E2, 3)."
+},
+{
+  "id" : "152",
+  "part" : "1",
+  "parent" : "Jessica had 8 quarters in her bank. Her sister borrowed 3 of her quarters. How many quarters does Jessica have now ?"
+  "parent_resolved" : "E1 had 8 quarters in her bank. E2 borrowed 3 of E1 quarters. How many quarters does E1 have now ?"
+  "sentence_resolved" : "How many quarters does E1 have now ?",
+  "clause" : "have(E1, X)."
+},
+{
+  "id" : "153",
+  "part" : "0",
+  "parent" : "A restaurant made 9 hamburgers to serve during lunch. Only 3 were  actually served. How many hamburgers were left over from lunch ?"
+  "parent_resolved" : "A restaurant made 9 hamburgers to serve during E1. Only 3 were  actually served. How many hamburgers were left over from E1 ?"
+  "sentence_resolved" : "A restaurant made 9 hamburgers to serve during E1",
+  "clause" : "change(E1, 9)."
+},
+{
+  "id" : "154",
+  "part" : "0",
+  "parent" : "A restaurant made 9 hamburgers to serve during lunch. Only 3 were  actually served. How many hamburgers were left over from lunch ?"
+  "parent_resolved" : "A restaurant made 9 hamburgers to serve during E1. Only 3 were  actually served. How many hamburgers were left over from E1 ?"
+  "sentence_resolved" : "Only 3 were  actually served.",
+  "clause" : "change(E1, -3)."
+},
+{
+  "id" : "155",
+  "part" : "1",
+  "parent" : "A restaurant made 9 hamburgers to serve during lunch. Only 3 were  actually served. How many hamburgers were left over from lunch ?"
+  "parent_resolved" : "A restaurant made 9 hamburgers to serve during E1. Only 3 were  actually served. How many hamburgers were left over from E1 ?"
+  "sentence_resolved" : "How many hamburgers were left over from E1 ?",
+  "clause" : "have(E1, X)."
+},
+{
+  "id" : "156",
+  "part" : "0",
+  "parent" : "There are 7 crayons in the drawer. Mary took 3 crayons out of the drawer. How many crayons are there now ?"
+  "parent_resolved" : "There are 7 crayons in E1. E2 took 3 crayons out of E1. How many crayons are there now ?"
+  "sentence_resolved" : "There are 7 crayons in E1",
+  "clause" : "have(E1, 7)."
+},
+{
+  "id" : "157",
+  "part" : "0",
+  "parent" : "There are 7 crayons in the drawer. Mary took 3 crayons out of the drawer. How many crayons are there now ?"
+  "parent_resolved" : "There are 7 crayons in E1. E2 took 3 crayons out of E1. How many crayons are there now ?"
+  "sentence_resolved" : "Mary took 3 crayons out of the drawer.",
+  "clause" : "transfer(E1, E2, 3)."
+},
+{
+  "id" : "158",
+  "part" : "1",
+  "parent" : "There are 7 crayons in the drawer. Mary took 3 crayons out of the drawer. How many crayons are there now ?"
+  "parent_resolved" : "There are 7 crayons in E1. E2 took 3 crayons out of E1. How many crayons are there now ?"
+  "sentence_resolved" : "How many crayons are there now ?",
+  "clause" : "have(E1, X)."
+},
+{
+  "id" : "159",
+  "part" : "0",
+  "parent" : "Dan picked 9 limes and gave Sara 4 of the limes.  How many limes does Dan have now ?"
+  "parent_resolved" : "E1 picked 9 limes and gave E2 4 of the limes.  How many limes does E1 have now ?"
+  "sentence_resolved" : "E1 picked 9 limes and gave E2 4 of the limes.",
+  "clause" : "change(E1, 9). transfer(E1, E2, 4)."
+},
+{
+  "id" : "160",
+  "part" : "1",
+  "parent" : "Dan picked 9 limes and gave Sara 4 of the limes.  How many limes does Dan have now ?"
+  "parent_resolved" : "E1 picked 9 limes and gave E2 4 of the limes.  How many limes does E1 have now ?"
+  "sentence_resolved" : "How many limes does Dan have now ?",
+  "clause" : "have(E1, X)."
 },
 
 
 
 
-Melanie, Benny, Sally, and Jessica each have 3 baseball cards.  How many baseball cards do they have in all ?
-There are 4 children in the classroom, each student will get 2 pencils. How many pencils will the teacher have to give out ?
-Mary has 9 yellow marbles Joan has 3 yellow marbles. How many yellow marbles do they have in all ?
-There are 8 calories in a candy bar. How many calories are there in 3 candy bars ?
-Joan has saved 6 quarters from washing cars.  How many cents does Joan have ?
-There are 960 students at a school. If each classroom holds 30 students, how many classrooms are needed at the school?
-Sally earns $12.50 an hour cleaning houses. If she works for 12 hours, how much money will she make ?
-Joan bought 6 dozen eggs from the grocery store to bake some cakes.  How many eggs did Joan buy ?
-Sally bought 4 dozen eggs from the grocery store to bake some cakes.  How many eggs did Sally buy ?
-There are 1110 students at a school. If each classroom holds 30 students, how many classrooms are needed at the school?
-Sally grew 6 carrots. Fred grew 4 carrots. How many carrots did they grow in all ?
-Benny has 6 blue marbles. Keith has 5 times more blue marbles than Benny. How many blue marbles does Keith have ?
-Fred earns $12.50 an hour cleaning houses. If he works for 8 hours, how much money will he make ?
-Tom found 5 seashells on the beach. he gave Jessica 2 of the seashells. How many seashells does he now have ?
-Fred has 5 baseball cards. Melanie bought 3 of Fred's  baseball cards. How many baseball cards does Fred have now ?
-Nancy has saved 4900 cents from selling lemonade.  How many dollars does Nancy have?
-There were a total of 10 soccer games in the season. The season is played for 5 months. How many soccer games were played each month, if each month has the same number of games?
-Benny goes out to lunch with Sara and Tom. Each person orders the $8 lunch special. Benny agrees to pay the bill. How much will he have to pay ?
-Melanie goes fishing with Tom. Melanie catches 8 trout. Tom catches 2 times as many trout as Melanie. How many trout did Tom catch ?
-Benny worked 3 hours for 6 days. How many hours did he work in total ?
-Nancy has 7 black balloons. Mary has 4 times more  black balloons than Nancy. How many black balloons does Mary have now ?
-Jessica, Sandy, and Jason each have 8 pencils. How many pencils do they have have in all ?
-Sam, Dan, Tom, and Keith each have 14 Pokemon cards.  How many Pokemon cards do they have in all ?
-Alyssa has 36 books. Nancy has 7 times more books than  Alyssa. How many books does Nancy have ?
-Tim has 13 dozen golf balls. How many golf balls does he have ?
-Benny bought 7 dozen eggs from the grocery store to bake some cakes.  How many eggs did Benny buy ?
-Dan has 29 violet balloons. Tim has 7 times more violet balloons than Dan. How many violet balloons does Tim have ?
-There are 46 children in the classroom, each student will get 4 dozen pencils. How many pencils will the teacher have to give out ?
-Dan bought 9 dozen eggs from the grocery store to bake some cakes.  How many eggs did Dan buy ?
-There are 4 dozen calories in a candy bar. How many calories are there in 42 candy bars ?
-Sandy has 8 dozen books. Fred has 5 times more books than  Sandy. How many books does Fred have ?
-Jessica has 3 dozen red marbles. Sandy has 4 times more red marbles than Jessica. How many red marbles does Sandy have ?
-Melanie, Benny, Sandy, and Jessica each have 9 dozen Pokemon cards.  How many Pokemon cards do they have in all ?
-Sally saw 1 dozen birds in a tree. How many birds did Sally see ?
-Fred, Benny, and Jason have 24 crayons all together. If the crayons are equally divided, how many will each person get ?
-Sara goes fishing with Melanie. Sara catches 5 trout. Melanie catches 2 times as many trout as Sara. How many trout did Melanie catch ?
-A restaurant sold 49 hamburgers last week. How many hamburgers on average were sold each day ?
-Mike worked 3 hours, each day, for 5 days. How many hours did he work in total ?
-Melanie is selling 4 gumballs for eight cents each. How much money can Melanie get from selling the gumballs?
-Mary had 8 potatoes in the garden. The rabbits ate 3 of the potatoes. How many potatoes does Mary now have ?
-There were a total of 6 soccer games this year. Jessica missed 4 of the games. How many soccer games did Jessica go to in all ?
-There are 9 oak trees currently in the park. Park workers had to cut down 2  oak trees that were damaged. How many oak trees will the park have when the workers are finished ?
-Jessica had 8 quarters in her bank. Her sister borrowed 3 of her quarters. How many quarters does Jessica have now ?
-A restaurant made 9 hamburgers to serve during lunch. Only 3 were  actually served. How many hamburgers were left over from lunch ?
-There are 7 crayons in the drawer. Mary took 3 crayons out of the drawer. How many crayons are there now ?
-Dan picked 9 limes and gave Sara 4 of the limes.  How many limes does Dan have now ?
+
 Dan found 7 seashells but 3 were broken.  How many unbroken seashells did Dan find ?
 Joan picked 43 apples from the orchard, and gave 27 apples  to  Melanie. How many apples does Joan have now ?
 Alyssa's high school played 31 hockey games this year. She attended  13 games. How many hockey games did Alyssa miss ?
