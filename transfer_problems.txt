@@ -1127,193 +1127,321 @@ clause - clause generated
 {
   "id" : "137",
   "part" : "0",
-  "parent" : "Mary had 7 nickels in her bank. Her dad gave her 5 more nickels. How many nickels does Mary have now ?"
-  "parent_resolved" : "E1 had 7 nickels in her bank. E2 gave E1 5 more nickels. How many nickels does E1 have now ?"
+  "parent" : "Mary had 7 nickels in her bank. Her dad gave her 5 more nickels. How many nickels does Mary have now ?",
+  "parent_resolved" : "E1 had 7 nickels in her bank. E2 gave E1 5 more nickels. How many nickels does E1 have now ?",
   "sentence_resolved" : "E2 gave E1 5 more nickels.",
   "clause" : "transfer(E1, E2, 5)."
 },
 {
   "id" : "138",
   "part" : "1",
-  "parent" : "Mary had 7 nickels in her bank. Her dad gave her 5 more nickels. How many nickels does Mary have now ?"
-  "parent_resolved" : "E1 had 7 nickels in her bank. E2 gave E1 5 more nickels. How many nickels does E1 have now ?"
+  "parent" : "Mary had 7 nickels in her bank. Her dad gave her 5 more nickels. How many nickels does Mary have now ?",
+  "parent_resolved" : "E1 had 7 nickels in her bank. E2 gave E1 5 more nickels. How many nickels does E1 have now ?",
   "sentence_resolved" : "How many nickels does E1 have now ?",
   "clause" : "have(E1, X)."
 },
 {
   "id" : "139",
   "part" : "0",
-  "parent" : "Tom found 5 seashells on the beach. he gave Jessica 2 of the seashells. How many seashells does he now have ?"
-  "parent_resolved" : "E1 found 5 seashells on the beach. E1 gave E2 2 of the seashells. How many seashells does E1 now have ?"
+  "parent" : "Tom found 5 seashells on the beach. he gave Jessica 2 of the seashells. How many seashells does he now have ?",
+  "parent_resolved" : "E1 found 5 seashells on the beach. E1 gave E2 2 of the seashells. How many seashells does E1 now have ?",
   "sentence_resolved" : "E1 found 5 seashells on the beach. E1 gave E2 2 of the seashells.",
   "clause" : "change(E1, 5). transfer(E1, E2, 2)."
 },
 {
   "id" : "140",
   "part" : "1",
-  "parent" : "Tom found 5 seashells on the beach. he gave Jessica 2 of the seashells. How many seashells does he now have ?"
-  "parent_resolved" : "E1 found 5 seashells on the beach. E1 gave E2 2 of the seashells. How many seashells does E1 now have ?"
+  "parent" : "Tom found 5 seashells on the beach. he gave Jessica 2 of the seashells. How many seashells does he now have ?",
+  "parent_resolved" : "E1 found 5 seashells on the beach. E1 gave E2 2 of the seashells. How many seashells does E1 now have ?",
   "sentence_resolved" : "How many seashells does E1 now have ?",
   "clause" : "have(E1, X)."
 },
 {
   "id" : "141",
   "part" : "0",
-  "parent" : "Fred has 5 baseball cards. Melanie bought 3 of Fred's  baseball cards. How many baseball cards does Fred have now ?"
-  "parent_resolved" : "E1 has 5 baseball cards. E2 bought 3 of E1's  baseball cards. How many baseball cards does E1 have now ?"
+  "parent" : "Fred has 5 baseball cards. Melanie bought 3 of Fred's  baseball cards. How many baseball cards does Fred have now ?",
+  "parent_resolved" : "E1 has 5 baseball cards. E2 bought 3 of E1's  baseball cards. How many baseball cards does E1 have now ?",
   "sentence_resolved" : "E1 has 5 baseball cards.",
   "clause" : "have(E1, 5)."
 },
 {
   "id" : "142",
   "part" : "0",
-  "parent" : "Fred has 5 baseball cards. Melanie bought 3 of Fred's  baseball cards. How many baseball cards does Fred have now ?"
-  "parent_resolved" : "E1 has 5 baseball cards. E2 bought 3 of E1's  baseball cards. How many baseball cards does E1 have now ?"
+  "parent" : "Fred has 5 baseball cards. Melanie bought 3 of Fred's  baseball cards. How many baseball cards does Fred have now ?",
+  "parent_resolved" : "E1 has 5 baseball cards. E2 bought 3 of E1's  baseball cards. How many baseball cards does E1 have now ?",
   "sentence_resolved" : "E2 bought 3 of E1's  baseball cards.
   "clause" : "transfer(E1, E2, 3)."
 },
 {
   "id" : "143",
   "part" : "1",
-  "parent" : "Fred has 5 baseball cards. Melanie bought 3 of Fred's  baseball cards. How many baseball cards does Fred have now ?"
-  "parent_resolved" : "E1 has 5 baseball cards. E2 bought 3 of E1's  baseball cards. How many baseball cards does E1 have now ?"
+  "parent" : "Fred has 5 baseball cards. Melanie bought 3 of Fred's  baseball cards. How many baseball cards does Fred have now ?",
+  "parent_resolved" : "E1 has 5 baseball cards. E2 bought 3 of E1's  baseball cards. How many baseball cards does E1 have now ?",
   "sentence_resolved" : "How many baseball cards does E1 have now ",
   "clause" : "have(E1, 5)."
 },
 {
   "id" : "144",
   "part" : "0",
-  "parent" : "Mary had 8 potatoes in the garden. The rabbits ate 3 of the potatoes. How many potatoes does Mary now have ?"
-  "parent_resolved" : "E1 had 8 potatoes in the garden. E2 ate 3 of the potatoes. How many potatoes does E1 now have ?"
+  "parent" : "Mary had 8 potatoes in the garden. The rabbits ate 3 of the potatoes. How many potatoes does Mary now have ?",
+  "parent_resolved" : "E1 had 8 potatoes in the garden. E2 ate 3 of the potatoes. How many potatoes does E1 now have ?",
   "sentence_resolved" : "E1 had 8 potatoes in the garden.",
   "clause" : "have(E1, 8)."
 },
 {
   "id" : "145",
   "part" : "0",
-  "parent" : "Mary had 8 potatoes in the garden. The rabbits ate 3 of the potatoes. How many potatoes does Mary now have ?"
-  "parent_resolved" : "E1 had 8 potatoes in the garden. E2 ate 3 of the potatoes. How many potatoes does E1 now have ?"
+  "parent" : "Mary had 8 potatoes in the garden. The rabbits ate 3 of the potatoes. How many potatoes does Mary now have ?",
+  "parent_resolved" : "E1 had 8 potatoes in the garden. E2 ate 3 of the potatoes. How many potatoes does E1 now have ?",
   "sentence_resolved" : "E2 ate 3 of the potatoes.",
-  "clause" : "transfer(E1, E2, 3)."
+  "clause" : "change(E1, -3)."
 },
 {
   "id" : "145",
   "part" : "1",
-  "parent" : "Mary had 8 potatoes in the garden. The rabbits ate 3 of the potatoes. How many potatoes does Mary now have ?"
-  "parent_resolved" : "E1 had 8 potatoes in the garden. E2 ate 3 of the potatoes. How many potatoes does E1 now have ?"
+  "parent" : "Mary had 8 potatoes in the garden. The rabbits ate 3 of the potatoes. How many potatoes does Mary now have ?",
+  "parent_resolved" : "E1 had 8 potatoes in the garden. E2 ate 3 of the potatoes. How many potatoes does E1 now have ?",
   "sentence_resolved" : "How many potatoes does E1 now have ?",
   "clause" : "have(E1, X)."
 },
 {
   "id" : "146",
   "part" : "0",
-  "parent" : "There are 9 oak trees currently in the park. Park workers had to cut down 2  oak trees that were damaged. How many oak trees will the park have when the workers are finished ?"
-  "parent_resolved" : "There are 9 oak trees currently in E1. E2 had to cut down 2  oak trees that were damaged. How many oak trees will E1 have when E2 are finished ?"
+  "parent" : "There are 9 oak trees currently in the park. Park workers had to cut down 2  oak trees that were damaged. How many oak trees will the park have when the workers are finished ?",
+  "parent_resolved" : "There are 9 oak trees currently in E1. E2 had to cut down 2  oak trees that were damaged. How many oak trees will E1 have when E2 are finished ?",
   "sentence_resolved" : "There are 9 oak trees currently in E1.",
   "clause" : "have(E1, 9)."
 },
 {
   "id" : "147",
   "part" : "0",
-  "parent" : "There are 9 oak trees currently in the park. Park workers had to cut down 2  oak trees that were damaged. How many oak trees will the park have when the workers are finished ?"
-  "parent_resolved" : "There are 9 oak trees currently in E1. E2 had to cut down 2  oak trees that were damaged. How many oak trees will E1 have when E2 are finished ?"
+  "parent" : "There are 9 oak trees currently in the park. Park workers had to cut down 2  oak trees that were damaged. How many oak trees will the park have when the workers are finished ?",
+  "parent_resolved" : "There are 9 oak trees currently in E1. E2 had to cut down 2  oak trees that were damaged. How many oak trees will E1 have when E2 are finished ?",
   "sentence_resolved" : "E2 had to cut down 2  oak trees that were damaged.",
   "clause" : "transfer(E1, E2, X)."
 },
 {
   "id" : "149",
   "part" : "1",
-  "parent" : "There are 9 oak trees currently in the park. Park workers had to cut down 2  oak trees that were damaged. How many oak trees will the park have when the workers are finished ?"
-  "parent_resolved" : "There are 9 oak trees currently in E1. E2 had to cut down 2  oak trees that were damaged. How many oak trees will E1 have when E2 are finished ?"
+  "parent" : "There are 9 oak trees currently in the park. Park workers had to cut down 2  oak trees that were damaged. How many oak trees will the park have when the workers are finished ?",
+  "parent_resolved" : "There are 9 oak trees currently in E1. E2 had to cut down 2  oak trees that were damaged. How many oak trees will E1 have when E2 are finished ?",
   "sentence_resolved" : "How many oak trees will E1 have when E2 are finished ?",
   "clause" : "have(E1, X)."
 },
 {
   "id" : "150",
   "part" : "0",
-  "parent" : "Jessica had 8 quarters in her bank. Her sister borrowed 3 of her quarters. How many quarters does Jessica have now ?"
-  "parent_resolved" : "E1 had 8 quarters in her bank. E2 borrowed 3 of E1 quarters. How many quarters does E1 have now ?"
+  "parent" : "Jessica had 8 quarters in her bank. Her sister borrowed 3 of her quarters. How many quarters does Jessica have now ?",
+  "parent_resolved" : "E1 had 8 quarters in her bank. E2 borrowed 3 of E1 quarters. How many quarters does E1 have now ?",
   "sentence_resolved" : "E1 had 8 quarters in her bank.",
   "clause" : "have(E1, 8)."
 },
 {
   "id" : "151",
   "part" : "0",
-  "parent" : "Jessica had 8 quarters in her bank. Her sister borrowed 3 of her quarters. How many quarters does Jessica have now ?"
-  "parent_resolved" : "E1 had 8 quarters in her bank. E2 borrowed 3 of E1 quarters. How many quarters does E1 have now ?"
+  "parent" : "Jessica had 8 quarters in her bank. Her sister borrowed 3 of her quarters. How many quarters does Jessica have now ?",
+  "parent_resolved" : "E1 had 8 quarters in her bank. E2 borrowed 3 of E1 quarters. How many quarters does E1 have now ?",
   "sentence_resolved" : "E2 borrowed 3 of E1 quarters.",
   "clause" : "transfer(E1, E2, 3)."
 },
 {
   "id" : "152",
   "part" : "1",
-  "parent" : "Jessica had 8 quarters in her bank. Her sister borrowed 3 of her quarters. How many quarters does Jessica have now ?"
-  "parent_resolved" : "E1 had 8 quarters in her bank. E2 borrowed 3 of E1 quarters. How many quarters does E1 have now ?"
+  "parent" : "Jessica had 8 quarters in her bank. Her sister borrowed 3 of her quarters. How many quarters does Jessica have now ?",
+  "parent_resolved" : "E1 had 8 quarters in her bank. E2 borrowed 3 of E1 quarters. How many quarters does E1 have now ?",
   "sentence_resolved" : "How many quarters does E1 have now ?",
   "clause" : "have(E1, X)."
 },
 {
   "id" : "153",
   "part" : "0",
-  "parent" : "A restaurant made 9 hamburgers to serve during lunch. Only 3 were  actually served. How many hamburgers were left over from lunch ?"
-  "parent_resolved" : "A restaurant made 9 hamburgers to serve during E1. Only 3 were  actually served. How many hamburgers were left over from E1 ?"
+  "parent" : "A restaurant made 9 hamburgers to serve during lunch. Only 3 were  actually served. How many hamburgers were left over from lunch ?",
+  "parent_resolved" : "A restaurant made 9 hamburgers to serve during E1. Only 3 were  actually served. How many hamburgers were left over from E1 ?",
   "sentence_resolved" : "A restaurant made 9 hamburgers to serve during E1",
   "clause" : "change(E1, 9)."
 },
 {
   "id" : "154",
   "part" : "0",
-  "parent" : "A restaurant made 9 hamburgers to serve during lunch. Only 3 were  actually served. How many hamburgers were left over from lunch ?"
-  "parent_resolved" : "A restaurant made 9 hamburgers to serve during E1. Only 3 were  actually served. How many hamburgers were left over from E1 ?"
+  "parent" : "A restaurant made 9 hamburgers to serve during lunch. Only 3 were  actually served. How many hamburgers were left over from lunch ?",
+  "parent_resolved" : "A restaurant made 9 hamburgers to serve during E1. Only 3 were  actually served. How many hamburgers were left over from E1 ?",
   "sentence_resolved" : "Only 3 were  actually served.",
   "clause" : "change(E1, -3)."
 },
 {
   "id" : "155",
   "part" : "1",
-  "parent" : "A restaurant made 9 hamburgers to serve during lunch. Only 3 were  actually served. How many hamburgers were left over from lunch ?"
-  "parent_resolved" : "A restaurant made 9 hamburgers to serve during E1. Only 3 were  actually served. How many hamburgers were left over from E1 ?"
+  "parent" : "A restaurant made 9 hamburgers to serve during lunch. Only 3 were  actually served. How many hamburgers were left over from lunch ?",
+  "parent_resolved" : "A restaurant made 9 hamburgers to serve during E1. Only 3 were  actually served. How many hamburgers were left over from E1 ?",
   "sentence_resolved" : "How many hamburgers were left over from E1 ?",
   "clause" : "have(E1, X)."
 },
 {
   "id" : "156",
   "part" : "0",
-  "parent" : "There are 7 crayons in the drawer. Mary took 3 crayons out of the drawer. How many crayons are there now ?"
-  "parent_resolved" : "There are 7 crayons in E1. E2 took 3 crayons out of E1. How many crayons are there now ?"
+  "parent" : "There are 7 crayons in the drawer. Mary took 3 crayons out of the drawer. How many crayons are there now ?",
+  "parent_resolved" : "There are 7 crayons in E1. E2 took 3 crayons out of E1. How many crayons are there now ?",
   "sentence_resolved" : "There are 7 crayons in E1",
   "clause" : "have(E1, 7)."
 },
 {
   "id" : "157",
   "part" : "0",
-  "parent" : "There are 7 crayons in the drawer. Mary took 3 crayons out of the drawer. How many crayons are there now ?"
-  "parent_resolved" : "There are 7 crayons in E1. E2 took 3 crayons out of E1. How many crayons are there now ?"
+  "parent" : "There are 7 crayons in the drawer. Mary took 3 crayons out of the drawer. How many crayons are there now ?",
+  "parent_resolved" : "There are 7 crayons in E1. E2 took 3 crayons out of E1. How many crayons are there now ?",
   "sentence_resolved" : "Mary took 3 crayons out of the drawer.",
   "clause" : "transfer(E1, E2, 3)."
 },
 {
   "id" : "158",
   "part" : "1",
-  "parent" : "There are 7 crayons in the drawer. Mary took 3 crayons out of the drawer. How many crayons are there now ?"
-  "parent_resolved" : "There are 7 crayons in E1. E2 took 3 crayons out of E1. How many crayons are there now ?"
+  "parent" : "There are 7 crayons in the drawer. Mary took 3 crayons out of the drawer. How many crayons are there now ?",
+  "parent_resolved" : "There are 7 crayons in E1. E2 took 3 crayons out of E1. How many crayons are there now ?",
   "sentence_resolved" : "How many crayons are there now ?",
   "clause" : "have(E1, X)."
 },
 {
   "id" : "159",
   "part" : "0",
-  "parent" : "Dan picked 9 limes and gave Sara 4 of the limes.  How many limes does Dan have now ?"
-  "parent_resolved" : "E1 picked 9 limes and gave E2 4 of the limes.  How many limes does E1 have now ?"
+  "parent" : "Dan picked 9 limes and gave Sara 4 of the limes.  How many limes does Dan have now ?",
+  "parent_resolved" : "E1 picked 9 limes and gave E2 4 of the limes.  How many limes does E1 have now ?",
   "sentence_resolved" : "E1 picked 9 limes and gave E2 4 of the limes.",
   "clause" : "change(E1, 9). transfer(E1, E2, 4)."
 },
 {
   "id" : "160",
   "part" : "1",
-  "parent" : "Dan picked 9 limes and gave Sara 4 of the limes.  How many limes does Dan have now ?"
-  "parent_resolved" : "E1 picked 9 limes and gave E2 4 of the limes.  How many limes does E1 have now ?"
+  "parent" : "Dan picked 9 limes and gave Sara 4 of the limes.  How many limes does Dan have now ?",
+  "parent_resolved" : "E1 picked 9 limes and gave E2 4 of the limes.  How many limes does E1 have now ?",
   "sentence_resolved" : "How many limes does Dan have now ?",
+  "clause" : "have(E1, X)."
+},
+{
+  "id" : "161",
+  "part" : "0",
+  "parent" : "Dan found 7 seashells but 3 were broken.  How many unbroken seashells did Dan find ?",
+  "parent_resolved" : "E1 found 7 seashells but 3 were broken.  How many unbroken seashells did E1 find ?",
+  "sentence_resolved" : "E1 found 7 seashells but 3 were broken.",
+  "clause" : "change(E1, 7). change(E1, -3)."
+},
+{
+  "id" : "162",
+  "part" : "1",
+  "parent" : "Dan found 7 seashells but 3 were broken.  How many unbroken seashells did Dan find ?",
+  "parent_resolved" : "E1 found 7 seashells but 3 were broken.  How many unbroken seashells did E1 find ?",
+  "sentence_resolved" : "How many unbroken seashells did E1 find ?",
+  "clause" : "have(E1, X)."
+},
+{
+  "id" : "163",
+  "part" : "0",
+  "parent" : "Joan picked 43 apples from the orchard, and gave 27 apples  to  Melanie. How many apples does Joan have now ?",
+  "parent_resolved" : "E1 picked 43 apples from the orchard, and gave 27 apples  to  E2. How many apples does E1 have now ?",
+  "sentence_resolved" : "E1 picked 43 apples from the orchard, and gave 27 apples  to  E2.",
+  "clause" : "have(E1, 43). transfer(E1, E2, 27)."
+},
+{
+  "id" : "164",
+  "part" : "1",
+  "parent" : "Joan picked 43 apples from the orchard, and gave 27 apples  to  Melanie. How many apples does Joan have now ?",
+  "parent_resolved" : "E1 picked 43 apples from the orchard, and gave 27 apples  to  E2. How many apples does E1 have now ?",
+  "sentence_resolved" : "How many apples does E1 have now ?",
+  "clause" : "have(E1, X)."
+},
+{
+  "id" : "165",
+  "part" : "0",
+  "parent" : "Tom has 30 violet balloons, he gave Fred 16 of the balloons. How many violet balloons does he now have ?",
+  "parent_resolved" : "E1 has 30 violet balloons, E1 gave E2 16 of the balloons. How many violet balloons does E1 now have ?",
+  "sentence_resolved" : "E1 has 30 violet balloons, E1 gave E2 16 of the balloons.",
+  "clause" : "have(E1, 30). transfer(E1, E2, 16)."
+},
+{
+  "id" : "166",
+  "part" : "1",
+  "parent" : "Tom has 30 violet balloons, he gave Fred 16 of the balloons. How many violet balloons does he now have ?",
+  "parent_resolved" : "E1 has 30 violet balloons, E1 gave E2 16 of the balloons. How many violet balloons does E1 now have ?",
+  "sentence_resolved" : "How many violet balloons does E1 now have ?",
+  "clause" : "have(E1, X)."
+},
+{
+  "id" : "167",
+  "part" : "0",
+  "parent" : "Fred has 40 baseball cards. Keith bought 22 of Fred's  baseball cards. How many baseball cards does Fred have now ?",
+  "parent_resolved" : "E1 has 40 baseball cards. E2 bought 22 of E1  baseball cards. How many baseball cards does E1 have now ?",
+  "sentence_resolved" : "E1 has 40 baseball cards. E2 bought 22 of E1  baseball cards.",
+  "clause" : "have(E1, 40). transfer(E1, E2, 22)."
+},
+{
+  "id" : "168",
+  "part" : "1",
+  "parent" : "Fred has 40 baseball cards. Keith bought 22 of Fred's  baseball cards. How many baseball cards does Fred have now ?",
+  "parent_resolved" : "E1 has 40 baseball cards. E2 bought 22 of E1  baseball cards. How many baseball cards does E1 have now ?",
+  "sentence_resolved" : "How many baseball cards does E1 have now ?",
+  "clause" : "have(E1, X)."
+},
+{
+  "id" : "169",
+  "part" : "0",
+  "parent" : "Fred found 47 seashells on the beach, he gave Jessica 25 of the seashells. How many seashells does he now have ?",
+  "parent_resolved" : "E1 found 47 seashells on the beach, he gave E2 25 of the seashells. How many seashells does E1 now have ?",
+  "sentence_resolved" : "E1 found 47 seashells on the beach, he gave E2 25 of the seashells.",
+  "clause" : "change(E1, 47). transfer(E1, E2, 25)."
+},
+{
+  "id" : "170",
+  "part" : "1",
+  "parent" : "Fred found 47 seashells on the beach, he gave Jessica 25 of the seashells. How many seashells does he now have ?",
+  "parent_resolved" : "E1 found 47 seashells on the beach, he gave E2 25 of the seashells. How many seashells does E1 now have ?",
+  "sentence_resolved" : "How many seashells does E1 now have ?",
+  "clause" : "have(E1, X)."
+},
+{
+  "id" : "171",
+  "part" : "0",
+  "parent" : "Sara grew 43 pumpkins, but the rabbits ate 23 pumpkins. How many pumpkins does Sara have left ?",
+  "parent_resolved" : "E1 grew 43 pumpkins, but E2 ate 23 pumpkins. How many pumpkins does E1 have left ?",
+  "sentence_resolved" : "E1 grew 43 pumpkins, but E2 ate 23 pumpkins.",
+  "clause" : "change(E1, 43). change(E1, -23)."
+},
+{
+  "id" : "172",
+  "part" : "1",
+  "parent" : "Sara grew 43 pumpkins, but the rabbits ate 23 pumpkins. How many pumpkins does Sara have left ?",
+  "parent_resolved" : "E1 grew 43 pumpkins, but E2 ate 23 pumpkins. How many pumpkins does E1 have left ?",
+  "sentence_resolved" : "How many pumpkins does E1 have left ?",
+  "clause" : "have(E1, X)."
+},
+{
+  "id" : "173",
+  "part" : "0",
+  "parent" : "Joan decided to sell all of her old books. She gathered up 33 books to sell. She sold 26 books in a yard sale. How many books does Joan now have ?",
+  "parent_resolved" : "E1 decided to sell all of her old books. E1 gathered up 33 books to sell. E1 sold 26 books in a yard sale. How many books does E1 now have ?",
+  "sentence_resolved" : "E1 decided to sell all of her old books.",
+  "clause" : "change(E1, X)."
+},
+{
+  "id" : "174",
+  "part" : "0",
+  "parent" : "Joan decided to sell all of her old books. She gathered up 33 books to sell. She sold 26 books in a yard sale. How many books does Joan now have ?",
+  "parent_resolved" : "E1 decided to sell all of her old books. E1 gathered up 33 books to sell. E1 sold 26 books in a yard sale. How many books does E1 now have ?",
+  "sentence_resolved" : "E1 gathered up 33 books to sell. ",
+  "clause" : "change(E1, 31)."
+},
+{
+  "id" : "175",
+  "part" : "0",
+  "parent" : "Joan decided to sell all of her old books. She gathered up 33 books to sell. She sold 26 books in a yard sale. How many books does Joan now have ?",
+  "parent_resolved" : "E1 decided to sell all of her old books. E1 gathered up 33 books to sell. E1 sold 26 books in a yard sale. How many books does E1 now have ?",
+  "sentence_resolved" : "E1 sold 26 books in a yard sale.",
+  "clause" : "change(E1, -26)."
+},
+{
+  "id" : "176",
+  "part" : "1",
+  "parent" : "Joan decided to sell all of her old books. She gathered up 33 books to sell. She sold 26 books in a yard sale. How many books does Joan now have ?",
+  "parent_resolved" : "E1 decided to sell all of her old books. E1 gathered up 33 books to sell. E1 sold 26 books in a yard sale. How many books does E1 now have ?",
+  "sentence_resolved" : "How many books does E1 now have ?",
   "clause" : "have(E1, X)."
 },
 
@@ -1321,14 +1449,8 @@ clause - clause generated
 
 
 
-Dan found 7 seashells but 3 were broken.  How many unbroken seashells did Dan find ?
-Joan picked 43 apples from the orchard, and gave 27 apples  to  Melanie. How many apples does Joan have now ?
-Alyssa's high school played 31 hockey games this year. She attended  13 games. How many hockey games did Alyssa miss ?
-Tom has 30 violet balloons, he gave Fred 16 of the balloons. How many violet balloons does he now have ?
-Fred has 40 baseball cards. Keith bought 22 of Fred's  baseball cards. How many baseball cards does Fred have now ?
-Fred found 47 seashells on the beach, he gave Jessica 25 of the seashells. How many seashells does he now have ?
-Sara grew 43 pumpkins, but the rabbits ate 23 pumpkins. How many pumpkins does Sara have left ?
-Joan decided to sell all of her old books. She gathered up 33 books to sell. She sold 26 books in a yard sale. How many books does Joan now have ?
+
+
 There are 46 rulers in the drawer. Tim took 25  rulers from the drawer. How many rulers are now in the drawer ?
 There are 33 oak trees currently in the park. Park workers had to cut down  18 oak trees that were damaged. How many oak trees will be in the park when the workers are finished ?
 Sandy sold lemonade in her neighborhood. She got 17 half-dollars on Saturday and 6 half-dollars on Sunday. What amount of money did Sandy receive?
